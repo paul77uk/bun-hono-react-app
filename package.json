@@ -8,7 +8,9 @@
   },
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@cloudflare/workers-types": "^4.20251004.0",
+    "@types/bun": "latest",
+    "wrangler": "^4.42.0"
   },
   "peerDependencies": {
     "typescript": "^5"
